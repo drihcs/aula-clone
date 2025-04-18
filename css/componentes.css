@@ -56,7 +56,7 @@ img {
 }
 .recaptcha{
     background-color: var(--cor-fundo);
-    background-size: 32px;
+    background-size: 300px 57px 300px 57px;
     border: var(--cor-borda);
     font-family: Roboto, helvetica, arial, sans-serif;
     font-size: 14px;
@@ -64,4 +64,5 @@ img {
     line-height: 17px;
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
