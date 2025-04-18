@@ -55,11 +55,11 @@ button:hover {
     width: 400px;
     height: auto;
 }
-.recaptcha{
+.recaptcha {
     background-color: var(--cor-fundo);
     background-size: 300px 57px 300px 57px;
     border: var(--cor-borda);
-    font-family: Roboto, helvetica, arial, sans-serif;
+    font-family: 'Roboto';
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
