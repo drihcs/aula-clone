@@ -45,3 +45,9 @@ button {
 button:hover {
     background-color: var(--cor-primaria-hover);
 }
+
+img{
+   padding: 1rem;
+   display: relative;
+   align-items: start;
+}
