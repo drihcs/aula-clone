@@ -51,7 +51,8 @@ img {
     background-color: var(--cor-texto);
     padding: 0;
     display: relative;
-    align-items: start;
+    align-items: center;
+    filter: hue-rotate(410deg) brightness(110%) contrast(100%);
 }
 .recaptcha{
     background-color: var(--cor-fundo);
@@ -62,4 +63,5 @@ img {
     font-weight: 400;
     line-height: 17px;
     display: flex;
+    justify-content: space-between;
 }
