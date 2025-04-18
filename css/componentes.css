@@ -52,7 +52,7 @@ button:hover {
     padding: 0;
     display: block;
     align-items: center;
-    width: 100%;
+    width: 400px;
     height: auto;
 }
 .recaptcha{
