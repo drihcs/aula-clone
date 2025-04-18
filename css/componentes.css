@@ -50,9 +50,10 @@ button:hover {
 .img {
     background-color: var(--cor-texto);
     padding: 0;
-    display: relative;
+    display: block;
     align-items: center;
-    filter: hue-rotate(410deg) brightness(110%) contrast(100%);
+    width: 100%;
+    height: auto;
 }
 .recaptcha{
     background-color: var(--cor-fundo);
