@@ -47,7 +47,7 @@ button:hover {
     background-color: var(--cor-primaria-hover);
 }
 
-img {
+.img {
     background-color: var(--cor-texto);
     padding: 0;
     display: relative;
