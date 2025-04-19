@@ -47,21 +47,19 @@ button:hover {
     background-color: var(--cor-primaria-hover);
 }
 
-.img {
-    .img {
-        max-width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem; /* opcional, só pra dar um respiro */
-      }
-      
-      .img img {
-        max-width: 100%;
-        height: auto;
-        object-fit: contain;
-        display: block;
-      }
+
+.img-logo {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.img-logo img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .recaptcha-container {
@@ -76,19 +74,20 @@ button:hover {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    }
+}
 
 .recaptcha-top {
     display: flex;
     align-items: center;
-    height: 28px; /* mesma altura da caixa */
-  }
-  
-  .recaptcha-checkbox input {
+    height: 28px;
+    /* mesma altura da caixa */
+}
+
+.recaptcha-checkbox input {
     display: none;
-  }
-  
-  .recaptcha-checkbox .box {
+}
+
+.recaptcha-checkbox .box {
     width: 28px;
     height: 28px;
     border: 2px solid #c1c1c1;
@@ -97,52 +96,55 @@ button:hover {
     cursor: pointer;
     background: white;
     box-sizing: border-box;
-  }
-  
-  .label-text {
+}
+
+.label-text {
     margin-left: 10px;
     font-size: 15px;
     color: #444;
-    line-height: 28px; /* igual à altura da caixa */
-  }
-  
-  /* Alinhamento do rodapé */
-  .recaptcha-bottom {
+    line-height: 28px;
+    /* igual à altura da caixa */
+}
+
+/* Alinhamento do rodapé */
+.recaptcha-bottom {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* Alinha todo o conteúdo à direita */
+    align-items: flex-end;
+    /* Alinha todo o conteúdo à direita */
     font-size: 10px;
     color: #888;
     margin-top: 10px;
-  }
-  
-  .recaptcha-logo {
+}
+
+.recaptcha-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 4px;
     text-align: center;
 
-  }
-  
-  .recaptcha-logo img {
+}
+
+.recaptcha-logo img {
     width: 22px;
     margin-left: 0 0 2px 0;
-  }
-  
-  .recaptcha-links {
-    text-align: right; 
-  }
-  
-  .recaptcha-links a {
+}
+
+.recaptcha-links {
+    text-align: right;
+}
+
+.recaptcha-links a {
     color: #888;
     text-decoration: none;
     margin: 0 3px;
-  }
-  
-  .recaptcha-links a:hover {
+}
+
+.recaptcha-links a:hover {
     text-decoration: underline;
-  }
-  .recaptcha-links {
+}
+
+.recaptcha-links {
     text-align: right;
 }
