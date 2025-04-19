@@ -100,7 +100,7 @@ button:hover {
 
 .label-text {
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 12px;
     color: #444;
     line-height: 28px;
     /* igual à altura da caixa */
@@ -143,8 +143,4 @@ button:hover {
 
 .recaptcha-links a:hover {
     text-decoration: underline;
-}
-
-.recaptcha-links {
-    text-align: right;
 }
