@@ -48,9 +48,20 @@ button:hover {
 }
 
 .img {
-    width: 50%;
-    height: auto;
-    padding: 1.5rem;
+    .img {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; /* opcional, só pra dar um respiro */
+      }
+      
+      .img img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+      }
 }
 
 .recaptcha-container {
