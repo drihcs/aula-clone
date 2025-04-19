@@ -26,7 +26,8 @@
     <main>
         <header>
             <div class="img">
-                <img src="https://geracaotech.iel-ce.org.br/wp-content/themes/geracaotech/images/logo-gt2.png" alt="Imagem">
+                <img src="https://geracaotech.iel-ce.org.br/wp-content/themes/geracaotech/images/logo-gt2.png"
+                    alt="Imagem">
             </div>
             <h1>Acesso EAD | Geração Tech</h1>
             <p>Preencha seus dados abaixo</p>
@@ -46,17 +47,28 @@
             </div>
 
             <div class="recaptcha-container">
-                <div>
-                    <input type="checkbox" name="recaptcha" id="recaptcha">
-                    <label for="recaptcha">Não sou um robô</label>
+
+                <div class="recaptcha-top">
+                    <label class="recaptcha-checkbox">
+                        <input type="checkbox" />
+                        <div class="box">
+                            <div class="spinner"></div>
+                            <div class="checkmark"></div>
+                        </div>
+                    </label>
+                    <div class="label-text">Não sou um robô</div>
                 </div>
-                <div class="img-racaptcha">
-                    <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA logo" />
-                    <span>reCAPTCHA</span>
+
+                <div class="recaptcha-bottom">
+                    <div class="recaptcha-logo">
+                        <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA logo" />
+                        <span>reCAPTCHA</span>
+                    </div>
+                    <div class="recaptcha-links">
+                        <a href="#">Privacidade</a> · <a href="#">Termos</a>
+                    </div>
                 </div>
-                <div class="recaptcha-links">
-                    <a href="#">Privacidade</a> · <a href="#">Termos</a>
-                </div>
+            </div>
             </div>
             <button type="submit">Acessar</button>
         </form>
